@@ -1,0 +1,82 @@
+#basic-navbar-nav{
+      display: flex;
+      justify-content: space-between;
+}
+
+.card-exercise{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 100px;
+       margin: 10% 0 10% 0;
+}
+
+    .dashboard-container {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; 
+      height: 100vh; 
+      width: 100%;
+    }
+    .dashboard-image {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh; 
+      width: 100%; 
+    }
+    
+    .dashboard-text {
+             width: 500px;
+             margin-top: -450px;
+             color:yellow;
+    }
+
+    .cardiocard{
+          background: url("./assets/cyclist-countryside-road-fitness-bike-sunrise-workout-training-exercise-health-goals-wellness-heart-cardio-man-sports-person-bicycle-athlete-australian-street-with-helmet_590464-91.avif");
+          background-repeat:no-repeat;
+          background-size: cover;
+          background-position:top;
+          min-height: 100vh;
+          width: 100%;
+    }
+
+  .resistancecard{
+      background-image: url("./assets/leg-workouts-6.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center;
+      min-height: 100vh;
+      width: 100%;
+    
+  }
+
+
+
+    @media (min-width: 769px) {
+      .dashboard-container {
+        background-size: contain; 
+      }
+     
+     
+    }
+    @media (max-width: 768px) {
+      .dashboard-container {
+        background-size: contain; 
+      }
+      .dashboard-text{
+            width: 350px;
+            margin-top: -390px;
+     }
+     .dashboard-p1{
+            width: 340px;
+     }
+    }
+    
+ 
+    
+    
