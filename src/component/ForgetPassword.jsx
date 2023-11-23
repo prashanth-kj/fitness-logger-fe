@@ -46,7 +46,7 @@ function ForgetPassword() {
                 <Form.Label className="form-label">Email address</Form.Label>
                 <Form.Control type="email" className="form-control" placeholder="name@example.com" onChange={(e) => setEmail(e.target.value)} />
               </Form.Group>
-              <Button className='btn btn-primary w-100 mt-3' onClick={(e) => forgetPassword(e)} disabled={loading}>
+              <Button className='btn  w-100 mt-3' onClick={(e) => forgetPassword(e)} disabled={loading} style={{backgroundColor:"cadetblue", border:"1px solid cadetblue"}}>
                 {loading ? (
                   <Spinner animation="border" role="status" variant='warning'>
                     <span className="visually-hidden">Loading...</span>

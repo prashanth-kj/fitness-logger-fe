@@ -53,7 +53,7 @@ function Signup() {
              <Form.Control type="password" className="form-control" placeholder="Enter your password" onChange={(e)=>setPassword(e.target.value)} required/>
          </Form.Group>
 
-         <Button className='btn btn-primary w-100 mt-3' onClick={(e)=>createUser(e)} >
+         <Button className='btn  w-100 mt-3' onClick={(e)=>createUser(e)} style={{backgroundColor:"cadetblue", border:"1px solid cadetblue"}}>
             {loading ? (
                 <>
                   <Spinner as="span" animation="border" size="sm" role="status" aria-hidden="true" />

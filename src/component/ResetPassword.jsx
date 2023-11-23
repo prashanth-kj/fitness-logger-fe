@@ -70,7 +70,7 @@ function ResetPassword() {
                 onChange={(e) => setConfirmPassword(e.target.value)}
               />
             </Form.Group>
-            <Button className="btn btn-primary w-100 mt-3" onClick={(e) => resetPassword(e)} disabled={loading}>
+            <Button className="btn  w-100 mt-3" onClick={(e) => resetPassword(e)} disabled={loading} style={{backgroundColor:"cadetblue", border:"1px solid cadetblue"}}>
               {
                 loading ? (
                   <Spinner animation="border" role="status" variant='warning'>
