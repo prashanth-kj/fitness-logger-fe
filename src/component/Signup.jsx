@@ -5,6 +5,7 @@ import AxiosService from '../common/Apiservice';
 import Spinner from 'react-bootstrap/Spinner';
 import {toast} from "react-toastify";
 import { useNavigate } from 'react-router-dom';
+import heartpulse from '../assets/heart-pulse-solid.svg'
 function Signup() {
     let [name,setName]=useState("");
     let [email,setEmail]=useState("");
@@ -39,6 +40,9 @@ function Signup() {
     <div className='container' style={{ height:'100vh'}}>
     <div className='d-flex justify-content-center align-items-center' style={{ height: '100%' }}>
        <div className='container-fluid' style={{maxWidth:"400px"}}>
+             <div className='d-flex justify-content-center align-items-center mb-4'  style={{color:"cadetblue"}}>
+                <img src={heartpulse} alt="heartpulse" width="25px" height="24px" className='mb-1 mx-2' /><h4>Fitness Logger</h4>
+             </div>
        <Form>
          <Form.Group className="mb-3" >
              <Form.Label className="form-label">Name</Form.Label>
