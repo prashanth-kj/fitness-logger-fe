@@ -1,3 +1,6 @@
+.navbar-collapse{
+  display: flex;
+}
 #basic-navbar-nav{
       display: flex;
       justify-content: space-between;

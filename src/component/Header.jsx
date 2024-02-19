@@ -36,7 +36,7 @@ function Header() {
                <NavItem><h4>{`${user.name}`}</h4></NavItem>
                &nbsp;
                &nbsp;
-               <Button  className="btn btn-primary" onClick={logout}>Logout</Button>
+               <Button  className="btn btn-danger" onClick={logout}>Logout</Button>
             </Nav>
 
         </Navbar.Collapse>
