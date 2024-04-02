@@ -46,9 +46,9 @@ function Login() {
     <>
        <div className='container' style={{ height:'100vh'}}>
              
-       <div className='d-flex justify-content-center align-items-center' style={{ height: '100%' }}>
+       <div className='d-flex justify-content-center align-items-center ' style={{ height: '100%' }}>
               
-          <div className='container-fluid' style={{maxWidth:"400px"}}>
+          <div className='container-fluid shadow p-4 rounded-5' style={{maxWidth:"400px"}}>
              <div className='d-flex justify-content-center align-items-center mb-4'  style={{color:"cadetblue"}}>
                 <img src={heartpulse} alt="heartpulse" width="25px" height="24px" className='mb-1 mx-2' /><h4>Fitness Logger</h4>
              </div>

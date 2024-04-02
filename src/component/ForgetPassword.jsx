@@ -41,7 +41,7 @@ function ForgetPassword() {
     <>
       <div className='container' style={{ height: '100vh' }}>
         <div className='d-flex justify-content-center align-items-center' style={{ height: '100%' }}>
-          <div className='container-fluid p-4 shadow' style={{ maxWidth: '400px' }}>
+          <div className='container-fluid p-4 shadow rounded-5' style={{ maxWidth: '400px' }}>
               <div className='d-flex justify-content-center align-items-center mb-4'  style={{color:"cadetblue"}}>
                   <img src={heartpulse} alt="heartpulse" width="25px" height="24px" className='mb-1 mx-2' /><h4>Fitness Logger</h4>
               </div>
